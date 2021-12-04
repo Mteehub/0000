@@ -206,18 +206,18 @@ bottom: 25px;
 
 	
 	text-shadow: 2px 2px 4px rgba(26, 26, 26, 0.4);
-  font-size: calc(3.5rem + 1.1vw);
+  font-size: calc(3rem + 1.1vw);
 }
 
 .demo-2 .main-title::before {
 	content: '';
-	width: 20vw;
-	height: 20vw;
+	width: 40vw;
+	height: 40vw;
 
 	background: url(../img/logo.svg) no-repeat center center; opacity: 30%;
 	background-size: cover;
 	position: absolute;
-	top: -150px;
+	top: -100px;
 	left: 50%;
 	border-radius: 50%;
 	z-index: -1;
@@ -395,6 +395,9 @@ bottom: 25px;
   @media screen and (max-width: 1200px) {
   
     .nav-pos{display: block; transition: ease 0.3s;}
+
+
+    .demo-2 .main-title{font-size: calc(1rem +3vw);}
  
         
     
@@ -419,7 +422,7 @@ bottom: 25px;
   
 .nav-pos{display: block;}
 .navigation ul a li{
-    font-size: calc(2.5rem + 1.5vw);}
+    font-size: calc(2.3rem + 1.5vw) !important;}
     
 
     
@@ -433,6 +436,4 @@ bottom: 25px;
 
 
 }
-
-
 
